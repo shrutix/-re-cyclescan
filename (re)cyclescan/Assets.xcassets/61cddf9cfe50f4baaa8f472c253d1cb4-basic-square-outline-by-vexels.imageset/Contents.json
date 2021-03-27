@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "61cddf9cfe50f4baaa8f472c253d1cb4-basic-square-outline-by-vexels.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
