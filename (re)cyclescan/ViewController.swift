@@ -48,7 +48,7 @@ class ViewController: UIViewController, AVCaptureMetadataOutputObjectsDelegate {
         if metadataObjects != nil && metadataObjects.count != 0 {
             if let object = metadataObjects[0] as? AVMetadataMachineReadableCodeObject {
                 if object.type == AVMetadataObject.ObjectType.qr {
-                    let alert = UIAlertController(title: "Thanks for recycling/composting! +2 points", message: object.stringValue, preferredStyle: .alert)
+                    let alert = UIAlertController(title: "Thanks for recycling/composting!", message: object.stringValue, preferredStyle: .alert)
                     alert.addAction(UIAlertAction(title: "Retake", style: .default, handler: nil))
                     alert.addAction(UIAlertAction(title: "Add to my scans", style: .default, handler: { (nil) in
                         UIPasteboard.general.string = object.stringValue
